@@ -1,0 +1,10 @@
+[Unit]
+Description=Disk status checker
+
+[Service]
+User=root
+Group=root
+WorkingDirectory=/root
+Type=simple
+Type=oneshot
+ExecStart=/root/diskstatus.sh
