@@ -4,7 +4,7 @@ This is a script I whipped up a while back to alert me at work when certain seve
 
 # Usage
 
-Clone from git with `git clone https://github.com/diskstatus` and start editing values.
+Clone from git with `git clone https://github.com/clarjon1/diskstatus` and start editing values.
 
 Set THRESHOLD to the fill percentage you want the system to be alerting at. Default set to 10% full as most disks I deployed this to was past this, so it'd alert and let me know that stuff was working immediately.
 
